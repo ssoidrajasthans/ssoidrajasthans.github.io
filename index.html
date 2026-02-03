@@ -2,11 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>SSO ID Rajasthan Login | Registration, Services & Status Check</title>
-  <meta name="description" content="SSO ID Rajasthan portal allows citizens to access multiple Rajasthan government services using a single login. Learn how to register, login, reset password, and check SSO ID status.">
-  <meta name="keywords" content="SSO ID Rajasthan, SSO Login Rajasthan, SSO Registration, sso.rajasthan.gov.in">
+  <title>SSO ID Rajasthan Login | Registration & Services</title>
+
+  <!-- SEO Meta -->
+  <meta name="description" content="SSO ID Rajasthan portal helps citizens access multiple Rajasthan government services with one login. Learn SSO registration, login, services, and FAQs.">
+  <meta name="keywords" content="SSO ID Rajasthan, SSO Login, SSO Registration Rajasthan">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -17,210 +21,182 @@
       line-height: 1.7;
     }
     .hero {
-      background: linear-gradient(90deg, #0d6efd, #0a58ca);
+      background: linear-gradient(90deg, #0d6efd, #084298);
       color: #fff;
-      padding: 50px 0;
+      padding: 60px 0;
     }
     .section-title {
       border-left: 5px solid #0d6efd;
-      padding-left: 10px;
+      padding-left: 12px;
+      margin-top: 40px;
       margin-bottom: 20px;
     }
     .service-box {
       background: #fff;
       border-radius: 8px;
       padding: 20px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      box-shadow: 0 0 10px rgba(0,0,0,0.06);
+      height: 100%;
+    }
+    footer {
+      font-size: 14px;
     }
   </style>
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<!-- ================= HEADER WITH TOGGLE MENU ================= -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
   <div class="container">
-    
-    <!-- Logo / Site Name -->
-    <a class="navbar-brand fw-bold" href="#">
+
+    <!-- Logo / Title -->
+    <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#">
+      <img src="favicon.png" alt="SSO Logo" width="30" height="30">
       SSO ID Rajasthan
     </a>
 
     <!-- Toggle Button -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ssoNavbar"
-      aria-controls="ssoNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#mainNavbar" aria-controls="mainNavbar"
+      aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <!-- Menu -->
-    <div class="collapse navbar-collapse" id="ssoNavbar">
+    <div class="collapse navbar-collapse" id="mainNavbar">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About SSO</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#login">Login</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#registration">Registration</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#services">Services</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#faq">FAQ</a>
-        </li>
-
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#login">Login</a></li>
+        <li class="nav-item"><a class="nav-link" href="#register">Register</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
       </ul>
     </div>
 
   </div>
 </nav>
 
-
-<!-- Hero Section -->
+<!-- ================= HERO ================= -->
 <section class="hero text-center">
   <div class="container">
     <h1 class="fw-bold">SSO ID Rajasthan Portal</h1>
     <p class="mt-3">
-      Single Sign-On (SSO) ID Rajasthan is a digital identity that allows citizens, businesses,
-      and government employees to access multiple Rajasthan government services using one login.
+      Single Sign-On (SSO) ID enables citizens, businesses, and government employees
+      to access multiple Rajasthan government services using one secure login.
     </p>
   </div>
 </section>
 
-<!-- Main Content -->
 <div class="container my-5">
 
-  <!-- About -->
+<!-- ================= ABOUT ================= -->
+<section id="about">
   <h2 class="section-title">What is SSO ID Rajasthan?</h2>
   <p>
-    <strong>SSO ID Rajasthan</strong> is an initiative by the Government of Rajasthan to simplify
-    access to online services. Through the official portal
-    <strong>sso.rajasthan.gov.in</strong>, users can log in once and access multiple government
-    departments without creating separate usernames and passwords.
+    <strong>SSO ID Rajasthan</strong> is a digital identity provided by the
+    Government of Rajasthan. It allows users to log in once and access
+    multiple online government services without creating separate accounts.
   </p>
   <p>
-    The <a href="https://myssoid.net">SSO ID</a> system is designed to improve transparency, reduce paperwork, and promote
-    digital governance across Rajasthan.
+    The official portal <strong>sso.rajasthan.gov.in</strong> promotes
+    digital governance, transparency, and paperless services.
   </p>
+</section>
 
-  <!-- Types -->
-  <h2 class="section-title">Types of SSO ID Rajasthan</h2>
-  <ul>
-    <li><strong>Citizen SSO ID</strong> – For residents of Rajasthan</li>
-    <li><strong>Udhyog SSO ID</strong> – For business owners and entrepreneurs</li>
-    <li><strong>Government Employee SSO ID</strong> – For state government employees</li>
-  </ul>
+<!-- ================= TYPES ================= -->
+<h2 class="section-title">Types of SSO ID</h2>
+<ul>
+  <li><strong>Citizen SSO ID</strong> – For residents of Rajasthan</li>
+  <li><strong>Udhyog SSO ID</strong> – For businesses & entrepreneurs</li>
+  <li><strong>Government Employee SSO ID</strong> – For state employees</li>
+</ul>
 
-  <!-- Registration -->
+<!-- ================= LOGIN ================= -->
+<section id="login">
+  <h2 class="section-title">SSO ID Rajasthan Login Steps</h2>
+  <ol>
+    <li>Visit <strong>sso.rajasthan.gov.in</strong></li>
+    <li>Enter your <strong>SSO ID</strong> and <strong>Password</strong></li>
+    <li>Fill the captcha and click <strong>Login</strong></li>
+    <li>Access all linked government services</li>
+  </ol>
+</section>
+
+<!-- ================= REGISTRATION ================= -->
+<section id="register">
   <h2 class="section-title">How to Register for SSO ID Rajasthan</h2>
   <ol>
-    <li>Visit the official website: <strong>sso.rajasthan.gov.in</strong></li>
-    <li>Click on the <strong>Register</strong> button</li>
-    <li>Select your user type (Citizen / Udhyog / Government Employee)</li>
-    <li>Register using one of the following:
+    <li>Open the official SSO portal</li>
+    <li>Click on <strong>Register</strong></li>
+    <li>Select user type (Citizen / Udhyog / Govt Employee)</li>
+    <li>Register using:
       <ul>
         <li>Jan Aadhaar</li>
-        <li>Bhamashah Card</li>
+        <li>Bhamashah</li>
+        <li>Aadhaar OTP</li>
         <li>Google Account</li>
-        <li>Aadhaar (via OTP)</li>
       </ul>
     </li>
-    <li>Fill in personal details and create your SSO ID</li>
-    <li>Submit the form and complete verification</li>
+    <li>Create SSO ID and password</li>
   </ol>
+</section>
 
-  <!-- Login -->
-  <h2 class="section-title">SSO ID Rajasthan Login Process</h2>
-  <ol>
-    <li>Go to <strong>sso.rajasthan.gov.in</strong></li>
-    <li>Enter your <strong>SSO ID</strong>, <strong>Password</strong>, and <strong>Captcha</strong></li>
-    <li>Click on the <strong>Login</strong> button</li>
-    <li>After login, access all linked government services</li>
-  </ol>
-
-  <!-- Services -->
+<!-- ================= SERVICES ================= -->
+<section id="services">
   <h2 class="section-title">Services Available on SSO Portal</h2>
   <div class="row g-3">
     <div class="col-md-6">
       <div class="service-box">
         <ul>
           <li>e-Mitra Services</li>
-          <li>Rajasthan Employment Portal</li>
-          <li>Bhamashah & Jan Aadhaar Services</li>
+          <li>Jan Aadhaar</li>
+          <li>Scholarship Portal</li>
+          <li>Employment Services</li>
           <li>ePDS (Ration Card)</li>
-          <li>Scholarship Services</li>
         </ul>
       </div>
     </div>
     <div class="col-md-6">
       <div class="service-box">
         <ul>
-          <li>Rajasthan Sampark</li>
           <li>Pay Manager</li>
           <li>IFMS & HRMS</li>
-          <li>Business Registration Services</li>
+          <li>Business Registration</li>
           <li>Digital Certificates</li>
+          <li>Rajasthan Sampark</li>
         </ul>
       </div>
     </div>
   </div>
+</section>
 
-  <!-- Password Reset -->
-  <h2 class="section-title mt-4">Forgot SSO ID or Password?</h2>
-  <p>
-    If you forget your SSO ID or password, follow these steps:
-  </p>
-  <ol>
-    <li>Open the SSO login page</li>
-    <li>Click on <strong>Forgot Password</strong></li>
-    <li>Enter registered mobile number or email</li>
-    <li>Verify using OTP</li>
-    <li>Reset your password successfully</li>
-  </ol>
+<!-- ================= FAQ ================= -->
+<section id="faq">
+  <h2 class="section-title">Frequently Asked Questions</h2>
 
-  <!-- Benefits -->
-  <h2 class="section-title">Benefits of SSO ID Rajasthan</h2>
-  <ul>
-    <li>One login for multiple government services</li>
-    <li>Secure and transparent system</li>
-    <li>Time-saving and paperless process</li>
-    <li>Easy access to welfare schemes</li>
-    <li>24×7 online availability</li>
-  </ul>
+  <p><strong>Q1. Is SSO ID mandatory?</strong><br>
+  Yes, SSO ID is mandatory for most Rajasthan government online services.</p>
 
-  <!-- FAQs -->
-  <h2 class="section-title">Frequently Asked Questions (FAQs)</h2>
-
-  <p><strong>Q1. Is SSO ID mandatory in Rajasthan?</strong><br>
-  Yes, SSO ID is mandatory to access most Rajasthan government online services.</p>
-
-  <p><strong>Q2. Can I create multiple SSO IDs?</strong><br>
-  No, one person should have only one SSO ID.</p>
+  <p><strong>Q2. Can I reset my SSO password?</strong><br>
+  Yes, use the <strong>Forgot Password</strong> option on the login page.</p>
 
   <p><strong>Q3. Is SSO ID free?</strong><br>
-  Yes, registration and usage of SSO ID is completely free.</p>
-
-  <p><strong>Q4. Can non-residents apply for SSO ID?</strong><br>
-  Citizen SSO ID is mainly for Rajasthan residents, but business users can register under Udhyog SSO.</p>
+  Yes, SSO ID registration is completely free.</p>
+</section>
 
 </div>
 
-<!-- Footer -->
+<!-- ================= FOOTER ================= -->
 <footer class="bg-dark text-white text-center p-3">
   <p class="mb-0">
-    © 2026 SSO ID Rajasthan | This is an informational website and not an official government portal.
+    © 2026 SSO ID Rajasthan | This is an informational website, not an official government portal.
   </p>
 </footer>
+
+<!-- Bootstrap JS (Required for Toggle) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
